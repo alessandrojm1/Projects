@@ -338,7 +338,12 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		/*display: grid !important;
+  		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		gap: 1rem; /* spacing between images */
 	}
+
+		
 
 		.row > * {
 			box-sizing: border-box;
@@ -2412,6 +2417,7 @@ input, select, textarea {
   			/*overflow: visible !important;  /* stop clipping the img into a circle */
 			border: 8px solid #3498db;      /* change border color + thickness */
   			box-shadow: 0 0 14px rgb(137, 66, 212); /* optional glow */
+			
 		}
 
 			.image.fit img {
@@ -2419,6 +2425,7 @@ input, select, textarea {
   				width: 100%;
   				height: 240px;
   				object-fit: scale-down;
+
 				/*box-shadow: none !important;   /* remove ring/shadow */
   				/*border: none !important;*/
 			}
